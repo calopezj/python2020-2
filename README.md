@@ -2,12 +2,12 @@
 
 Taller de python
 
-## 1 - lectura de archivos .csv
+## 1 - Lectura de archivos .csv
 
 a=open('data.csv','r').readlines()
 
 
-## 2 - split por tab:
+## 2 - Split por tab:
 a=[row.split('\t') for row in a]
 
 
@@ -45,7 +45,7 @@ print(result)
 
 
 
-## 5 - Ejercicio 12
+## 5 - Ejercicio propuesto
 
 file = open('data.csv', 'r').readlines()
 file = [row[0:-1] for row in file]
